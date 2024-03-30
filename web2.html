@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More About asmaaa ljadei</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+            background-color: #ffccff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff6699;
+            color: #fff;
+            padding: 30px;
+            font-size: 2.5em;
+            border-bottom: 5px dashed #ff3366;
+        }
+
+        .language-btn {
+            background-color: #ff6699;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: left;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #ff99cc;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px #ff3366;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-left: 5px solid #ff3366;
+            padding-left: 10px;
+        }
+
+        h2 {
+            color: #ff3366;
+            border-bottom: 3px solid #ff6699;
+            padding-bottom: 10px;
+            font-size: 2em;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<button class="language-btn" onclick="selectLanguage('english')">English</button>
+<button class="language-btn" onclick="selectLanguage('arabic')">العربية</button>
+
+<div class="content" id="content">
+    <!-- Content will be displayed here -->
+</div>
+
+<script>
+    function selectLanguage(language) {
+        const contentDiv = document.getElementById('content');
+        
+        if (language === 'english') {
+            contentDiv.innerHTML = `
+                <header>Learn More About Me</header>
+                <section>
+                    <h2>General Info</h2>
+                    <p>Everything you need to know about asmaa will be coming soon!</p>
+                    <h2>Favorite Things</h2>
+                    <ul>
+                        <li>Favorite Color: Red</li>
+                        <li>Favorite Car: Bentley</li>
+                        <li>Favorite Food: Italian</li>
+                        <li>Also Like: Chinese, Mexican</li>
+                        <li>Favorite App: Snapchat</li>
+                        <li>Love to Travel to: Urban Countries</li>
+                    </ul>
+                    <h2>16th Birthday Gift Ideas</h2>
+                    <p>Choosing a birthday gift for a 16-year-old girl can be fun! Here are some gift ideas that might appeal to her interests and age group:</p>
+                    <ul>
+                        <li>Jewelry: A delicate necklace, bracelet, or pair of earrings</li>
+                        <li>Fashion Accessories: Trendy handbags, scarves, or sunglasses</li>
+                        <li>Tech Gadgets: A new smartphone, smartwatch, or wireless headphones</li>
+                        <li>Skincare or Makeup Sets: High-quality skincare products or a makeup palette</li>
+                        <li>Books or Journals: A bestselling novel or a beautiful journal for writing</li>
+                        <li>Personalized Gifts: Customized items like a name necklace or monogrammed tote bag</li>
+                        <li>DIY Craft Kits: Jewelry-making, painting, or other craft kits</li>
+                        <li>Concert or Event Tickets: Tickets to a concert, movie premiere, or sports event</li>
+                        <li>Gift Cards: A gift card to her favorite clothing store or beauty store</li>
+                        <li>Fitness Gear: A new yoga mat, fitness tracker, or workout clothes</li>
+                        <li>Room Decor: Wall art, fairy lights, or stylish room decor</li>
+                        <li>Music or Podcast Subscription: A subscription to a music streaming service or podcast platform</li>
+                        <li>Cooking or Baking Kits: A cooking or baking kit with unique recipes and ingredients</li>
+                        <li>Board Games or Puzzles: Interactive board games or challenging puzzles</li>
+                        <li>Stationery Set: A beautiful set of stationery, planner, or bullet journal supplies</li>
+                        <li>Experience Gifts: An experience like a spa day, art class, or outdoor adventure</li>
+                    </ul>
+                </section>
+            `;
+        } else if (language === 'arabic') {
+            contentDiv.innerHTML = `
+                <header>تعرف علي المزيد عن اسماء الجدعي</header>
+                <section>
+                    <h2>المعلومات العامة</h2>
+                    <p>كل ما تحتاج إلى معرفته عني سيكون قريبًا!</p>
+                    <h2>الأشياء المفضلة</h2>
+                    <ul>
+                        <li>اللون المفضل: أحمر</li>
+                        <li>السيارة المفضلة: بنتلي</li>
+                        <li>الطعام المفضل: إيطالي</li>
+                        <li>أيضًا يحب: صيني، مكسيكي</li>
+                        <li>التطبيق المفضل: سناب شات</li>
+                        <li>أحب السفر إلى: البلدان الحضرية</li>
+                    </ul>
+                    <h2>أفكار هدايا السادس عشر من العمر</h2>
+                    <p>اختيار هدية عيد ميلاد لفتاة تبلغ من العمر 16 عامًا يمكن أن يكون ممتعًا! فيما يلي بعض أفكار الهدايا التي قد تعجبها وتناسب فئتها العمرية:</p>
+                    <ul>
+                        <li>المجوهرات: قلادة رقيقة، أو أسوارة، أو أقراط</li>
+                        <li>اكسسوارات الموضة: حقائب يد عصرية، أو أوشحة، أو نظارات شمسية</li>
+                        <li>أدوات التكنولوجيا: هاتف ذكي جديد، أو ساعة ذكية، أو سماعات لاسلكية</li>
+                        <li>مجموعات العناية بالبشرة أو المكياج: منتجات عالية الجودة للعناية بالبشرة، أو لوحة مكياج</li>
+                        <li>الكتب أو المجلات: رواية مبيعًا، أو دفتر يومي جميل للكتابة</li>
+                        <li>الهدايا المُخصصة: عناصر مُخصصة مثل قلادة بالاسم، أو حقيبة كتف محفور عليها الأحرف الأولى</li>
+                        <li>مجموعات الحرف اليدوية: صنع المجوهرات، الرسم، أو أدوات الحرف اليدوية الأخرى</li>
+                        <li>تذاكر الحفلات أو الأحداث: تذاكر لحفلة موسيقية، أو الإطلاق العالمي لفيلم، أو حدث رياضي تهتم به</li>
+                        <li>بطاقات الهدايا: بطاقة هدايا لمتجر الملابس المفضل لها، أو متجر الجمال</li>
+                        <li>معدات اللياقة البدنية: حصيرة يوغا جديدة، متتبع للياقة البدنية، أو ملابس تمرين</li>
+                        <li>ديكور الغرفة: فن جداري، أضواء خيالية، أو ديكور الغرفة الأنيق</li>
+                        <li>اشتراك الموسيقى أو البودكاست: اشتراك في خدمة بث الموسيقى، أو منصة البودكاست</li>
+                        <li>مجموعات الطهي أو الخبز: مجموعة طهي أو خبز مع وصفات فريدة ومكونات</li>
+                        <li>ألعاب اللوحة أو الألغاز: ألعاب اللوحة التفاعلية، أو الألغاز التحدي</li>
+                        <li>مجموعة القرطاسية: مجموعة قرطاسية جميلة، مخطط، أو مستلزمات البوليت جورنال</li>
+                        <li>هدايا الخبرة: تجربة مثل يوم في السبا، أو درس فني، أو مغامرة خارجية</li>
+                    </ul>
+                </section>
+            `;
+        }
+    }
+</script>
+
+</body>
+</html>
